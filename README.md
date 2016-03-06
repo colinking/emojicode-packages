@@ -42,7 +42,7 @@ To install these packages:
   $ cd emojicode-packages-master
   ```
 
-3. Run `make`
+3. Run `make` (You may need to run `sudo make`, since this symbolically links the packages to `/usr/local/EmojicodePackages`)
 
 ## Write New Packages
 
@@ -54,6 +54,6 @@ To create a new package, named `example-package`:
 
 3. Add your package to the `Makefile` by adding it to the `PACKAGES` variable: `PACKAGES = helloworld commands example-package`
 
-4. Run `make` (You may need to run `sudo make`, since this symbolically links the packages to `/usr/local/EmojicodePackages`)
+4. Run `make`
 
 5. Import your new package with `📦 example-package 🔴`
