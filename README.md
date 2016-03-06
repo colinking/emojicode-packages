@@ -8,7 +8,7 @@ A handful of simple packages for [Emojicode](http://www.emojicode.org/).
   🐇 🐖 🏁 ➡️ 🚂 🍇
 
     😀 🍩 🌍 👋
-    😀 🍩 🙋 👋 🔤Colin🔤
+    😀 🍩 🙋 👋 🔤Hannah🔤
 
     🍎 0
   🍉
@@ -19,7 +19,7 @@ A handful of simple packages for [Emojicode](http://www.emojicode.org/).
 $ emojicodec helloworld.emojic
 $ emojicode helloworld.emojib
 Hello World!
-Hello Colin!
+Hello Hannah!
 ```
 
 ## Package List
@@ -36,7 +36,13 @@ To install these packages:
 
 2. [Download](https://github.com/colinking/emojicode-packages/archive/master.zip) the master branch of this repo and unzip it.
 
-3. Run `make`
+  ```
+  $ wget https://github.com/colinking/emojicode-packages/archive/master.zip
+  $ unzip master.zip
+  $ cd emojicode-packages-master
+  ```
+
+3. Run `make` (You may need to run `sudo make`, since this symbolically links the packages to `/usr/local/EmojicodePackages`)
 
 ## Write New Packages
 
