@@ -36,11 +36,11 @@ To install these packages:
 
 2. [Download](https://github.com/colinking/emojicode-packages/archive/master.zip) the master branch of this repo and unzip it.
 
-```
-$ wget https://github.com/colinking/emojicode-packages/archive/master.zip
-$ unzip master.zip
-$ cd emojicode-packages-master
-```
+  ```
+  $ wget https://github.com/colinking/emojicode-packages/archive/master.zip
+  $ unzip master.zip
+  $ cd emojicode-packages-master
+  ```
 
 3. Run `make`
 
