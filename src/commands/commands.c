@@ -18,7 +18,7 @@ Something runCommand(Thread *thread) {
   // char *output;
   char *command = stringToChar(stackGetVariable(0, thread).object->value);
   char buffer[1024];
-  char stdout[8388608]; // 2^23 bytes
+  char stdout[8388608] = "\0"; // 2^23 bytes
 
   /* Open the command for reading. */
   fp = popen(command, "r");
