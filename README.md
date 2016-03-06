@@ -8,7 +8,7 @@ A handful of simple packages for [Emojicode](http://www.emojicode.org/).
   🐇 🐖 🏁 ➡️ 🚂 🍇
 
     😀 🍩 🌍 👋
-    😀 🍩 🙋 👋 🔤Colin🔤
+    😀 🍩 🙋 👋 🔤Hannah🔤
 
     🍎 0
   🍉
@@ -19,7 +19,7 @@ A handful of simple packages for [Emojicode](http://www.emojicode.org/).
 $ emojicodec helloworld.emojic
 $ emojicode helloworld.emojib
 Hello World!
-Hello Colin!
+Hello Hannah!
 ```
 
 ## Package List
